@@ -46,5 +46,4 @@ Optional browser tests: `python engine/test-browser.py`
 `index.html` provides a static GitHub Pages preview. Enable it under **Settings → Pages**, using `main / (root)`.
 
 The research server runs separately. GitHub Pages cannot execute Python, ingest new records, or render R charts.
-
 Additional documentation is available in `pipeline/README.md`, `FRONTEND_DECISION.md`, and `ENGINE_RELEASE_V7.md`. (names will be changed
