@@ -1,0 +1,27 @@
+{
+  "evidence_type": "official_zip_browser_spotcheck",
+  "status": "partial_observed_records",
+  "verified_date_utc": "2026-10-24",
+  "period": "202501",
+  "flow": "M",
+  "archive_url": "https://www.census.gov/trade/downloads/2025/Port/im_hs6_m/PORTHS6MM2501.ZIP",
+  "layout_url": "https://www.census.gov/foreign-trade/reference/products/layouts/dporths6i.html",
+  "country_lookup_url": "https://www.census.gov/foreign-trade/schedules/c/countrycode.html",
+  "archive_member": "dporths6ir2501.txt",
+  "archive_bytes_reported": 6532208,
+  "member_uncompressed_bytes_reported": 96956744,
+  "member_record_bytes": 230,
+  "line_ending": "CRLF",
+  "raw_archive_included": false,
+  "archive_sha256": null,
+  "full_month_coverage": false,
+  "method": "Browser read of official compressed ZIP bytes and first five HS 760110 records; source archive not transferred into research engine.",
+  "rows": [
+    {"hs6":"760110","country_code":"1220","country_name":"Canada","port_code":"0701","value_usd":1213537},
+    {"hs6":"760110","country_code":"1220","country_name":"Canada","port_code":"0708","value_usd":2526266},
+    {"hs6":"760110","country_code":"1220","country_name":"Canada","port_code":"0712","value_usd":37460340},
+    {"hs6":"760110","country_code":"1220","country_name":"Canada","port_code":"0715","value_usd":9648511},
+    {"hs6":"760110","country_code":"1220","country_name":"Canada","port_code":"0901","value_usd":8702365}
+  ],
+  "limitations": "Only five archive rows were inspected; not a complete HS6, port, partner, month or quarter total. Do not use for ranking, origin shares or flows."
+}

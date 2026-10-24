@@ -1,0 +1,146 @@
+{
+  "schema_version": 2,
+  "scope": "observed trade / reproducible derived measures / unknown edges",
+  "data_sources": {
+    "comtrade_annual": {
+      "dataset_cohorts": 9,
+      "partner_observations": 481,
+      "raw_response_files_included": 0,
+      "sha256": "3a96ba46ef698df91a293b46fa085f87010895194f4d018fdd66ef04df2cbdd4"
+    },
+    "comtrade_monthly": {
+      "world_observations": 60,
+      "sampled_partner_observations": 84,
+      "raw_response_files_included": 0,
+      "sha256": "f05b665aa97a628c0e80fc36ccc1ffd975a63adb62aa05709baecb005e3e42dd"
+    },
+    "usace_all_cargo_ports": {
+      "rows": 40,
+      "hs_breakdown_available": false,
+      "sha256": "f200f8e8255aa7e80ab98cb24fb5e686ee846a58a0f3cfdd0f6d5c32a6245e48"
+    },
+    "census_port_hs6": {
+      "loaded_archives": 0,
+      "planned_monthly_archives": 12,
+      "requested_cohorts": [
+        {
+          "period": "202401",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/im_hs6_m/PORTHS6MM2401.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202401",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/ex_hs6_m/PORTHS6XM2401.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202402",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/im_hs6_m/PORTHS6MM2402.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202402",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/ex_hs6_m/PORTHS6XM2402.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202403",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/im_hs6_m/PORTHS6MM2403.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202403",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2024/Port/ex_hs6_m/PORTHS6XM2403.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202501",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/im_hs6_m/PORTHS6MM2501.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202501",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/ex_hs6_m/PORTHS6XM2501.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202502",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/im_hs6_m/PORTHS6MM2502.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202502",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/ex_hs6_m/PORTHS6XM2502.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202503",
+          "flow": "M",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/im_hs6_m/PORTHS6MM2503.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        },
+        {
+          "period": "202503",
+          "flow": "X",
+          "url": "https://www.census.gov/trade/downloads/2025/Port/ex_hs6_m/PORTHS6XM2503.ZIP",
+          "ingestion": "unfetched",
+          "sha256": null,
+          "rows": null
+        }
+      ]
+    },
+    "census_port_hs6_browser_spotcheck": {
+      "rows": 5,
+      "complete_months": 0,
+      "raw_archive_included": false,
+      "archive_sha256": null,
+      "spotcheck_manifest_sha256": "c82bfe5219b80ad897ca5c67bd1d6f34c4ded2135fc146e6e8d8139aee143b24",
+      "archive_url": "https://www.census.gov/trade/downloads/2025/Port/im_hs6_m/PORTHS6MM2501.ZIP",
+      "archive_member": "dporths6ir2501.txt",
+      "period": "202501"
+    }
+  },
+  "assertions_not_supported": [
+    "company imports an HS code",
+    "shipment sailed on a named carrier",
+    "commodity passed through a named USACE port",
+    "real-time current flows"
+  ],
+  "reproducible": {
+    "root_script": "engine/build_database.py",
+    "census_ingest": "engine/census_port_hs6.py",
+    "comtrade_raw_audit": "engine/comtrade_audit.py"
+  }
+}

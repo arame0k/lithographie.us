@@ -1,0 +1,296 @@
+{
+  "schema_version": "lithographie.census-port-hs6.extract.v1",
+  "period": "202401",
+  "flow": "M",
+  "hs6": "760110",
+  "source_url": "https://www.census.gov/trade/downloads/2024/Port/im_hs6_m/PORTHS6MM2401.ZIP",
+  "source_sha256": "c7c9a08e53d30317f4ba1f7de5a2fdb73fb09b61cdcea785a10adb70dd410781",
+  "archive_full_scan": true,
+  "matching_rows_complete": true,
+  "archive_physical_rows": 406256,
+  "matching_row_count": 35,
+  "total_usd": 452301510,
+  "rows": [
+    {
+      "country_code": "1220",
+      "port_code": "0701",
+      "value_usd": 4376420,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "0704",
+      "value_usd": 1199742,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "0708",
+      "value_usd": 1277764,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "0712",
+      "value_usd": 32831828,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "0715",
+      "value_usd": 12912393,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "0901",
+      "value_usd": 2632924,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "1303",
+      "value_usd": 138629346,
+      "air_value_usd": 0,
+      "vessel_value_usd": 138629346,
+      "container_value_usd": 19657021
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3004",
+      "value_usd": 17309033,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3009",
+      "value_usd": 2181200,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3310",
+      "value_usd": 1508258,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3401",
+      "value_usd": 1623299,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3604",
+      "value_usd": 25786028,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3801",
+      "value_usd": 16770778,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3802",
+      "value_usd": 118184745,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "1220",
+      "port_code": "3803",
+      "value_usd": 205743,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "3570",
+      "port_code": "1821",
+      "value_usd": 4680684,
+      "air_value_usd": 0,
+      "vessel_value_usd": 4680684,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "3570",
+      "port_code": "2101",
+      "value_usd": 4431944,
+      "air_value_usd": 0,
+      "vessel_value_usd": 4431944,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "4039",
+      "port_code": "5301",
+      "value_usd": 142599,
+      "air_value_usd": 0,
+      "vessel_value_usd": 142599,
+      "container_value_usd": 142599
+    },
+    {
+      "country_code": "4190",
+      "port_code": "4101",
+      "value_usd": 5370,
+      "air_value_usd": 5370,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "4279",
+      "port_code": "1003",
+      "value_usd": 235178,
+      "air_value_usd": 0,
+      "vessel_value_usd": 235178,
+      "container_value_usd": 235178
+    },
+    {
+      "country_code": "4280",
+      "port_code": "3004",
+      "value_usd": 512380,
+      "air_value_usd": 0,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "5200",
+      "port_code": "1003",
+      "value_usd": 3987334,
+      "air_value_usd": 0,
+      "vessel_value_usd": 3987334,
+      "container_value_usd": 3987334
+    },
+    {
+      "country_code": "5200",
+      "port_code": "1303",
+      "value_usd": 995617,
+      "air_value_usd": 0,
+      "vessel_value_usd": 995617,
+      "container_value_usd": 995617
+    },
+    {
+      "country_code": "5200",
+      "port_code": "1703",
+      "value_usd": 292097,
+      "air_value_usd": 0,
+      "vessel_value_usd": 292097,
+      "container_value_usd": 292097
+    },
+    {
+      "country_code": "5200",
+      "port_code": "2908",
+      "value_usd": 14081878,
+      "air_value_usd": 0,
+      "vessel_value_usd": 14081878,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "5330",
+      "port_code": "1303",
+      "value_usd": 1682802,
+      "air_value_usd": 0,
+      "vessel_value_usd": 1682802,
+      "container_value_usd": 1682802
+    },
+    {
+      "country_code": "5330",
+      "port_code": "3001",
+      "value_usd": 3179582,
+      "air_value_usd": 0,
+      "vessel_value_usd": 3179582,
+      "container_value_usd": 3179582
+    },
+    {
+      "country_code": "5700",
+      "port_code": "2720",
+      "value_usd": 20829,
+      "air_value_usd": 20829,
+      "vessel_value_usd": 0,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "6021",
+      "port_code": "1303",
+      "value_usd": 1247801,
+      "air_value_usd": 0,
+      "vessel_value_usd": 1247801,
+      "container_value_usd": 1247801
+    },
+    {
+      "country_code": "6021",
+      "port_code": "2002",
+      "value_usd": 8443031,
+      "air_value_usd": 0,
+      "vessel_value_usd": 8443031,
+      "container_value_usd": 8443031
+    },
+    {
+      "country_code": "6021",
+      "port_code": "2704",
+      "value_usd": 4685059,
+      "air_value_usd": 0,
+      "vessel_value_usd": 4685059,
+      "container_value_usd": 4685059
+    },
+    {
+      "country_code": "6141",
+      "port_code": "1303",
+      "value_usd": 1641127,
+      "air_value_usd": 0,
+      "vessel_value_usd": 1641127,
+      "container_value_usd": 1641127
+    },
+    {
+      "country_code": "6141",
+      "port_code": "3001",
+      "value_usd": 1233318,
+      "air_value_usd": 0,
+      "vessel_value_usd": 1233318,
+      "container_value_usd": 1233318
+    },
+    {
+      "country_code": "7910",
+      "port_code": "2301",
+      "value_usd": 21754193,
+      "air_value_usd": 0,
+      "vessel_value_usd": 21754193,
+      "container_value_usd": 0
+    },
+    {
+      "country_code": "7910",
+      "port_code": "5301",
+      "value_usd": 1619186,
+      "air_value_usd": 0,
+      "vessel_value_usd": 1619186,
+      "container_value_usd": 0
+    }
+  ],
+  "extraction_note": "Browser-scanned official archive; SHA256 verified in browser. Original ZIP not bundled."
+}
